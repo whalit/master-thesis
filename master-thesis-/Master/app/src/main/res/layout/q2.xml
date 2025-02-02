@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy">
+
+    <!-- ImageView at the top -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="391dp"
+        android:layout_height="369dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/questions" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/creme"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2">
+
+        <!-- Content inside the CardView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- New Question TextView -->
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:fontFamily="@font/jost_bold"
+                android:gravity="center"
+                android:text="Do you need assistance in your daily life?"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <!-- New Button 1 -->
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="240dp"
+                android:layout_height="74dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/blue"
+                android:text="Yes, I need a lot of assistance."
+                android:textColor="@android:color/white" />
+
+            <!-- New Button 2 -->
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="240dp"
+                android:layout_height="74dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/blue"
+                android:text="Yes, a little bit of help is needed"
+                android:textColor="@android:color/white" />
+
+            <!-- New Button 3 -->
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="240dp"
+                android:layout_height="74dp"
+                android:backgroundTint="@color/blue"
+                android:text="No, I don't need any assistance"
+                android:textColor="@android:color/white" />
+
+            <!-- Dots indicating question progress inside the CardView -->
+            <LinearLayout
+                android:id="@+id/dotsLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- First dot (larger and different color to indicate current question) -->
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/inactive_dot" />
+
+                <!-- Other dots (smaller, inactive) -->
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/active_dot" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/inactive_dot" />
+
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/inactive_dot" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

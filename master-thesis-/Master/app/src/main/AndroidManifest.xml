@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.master">  <!-- Ensure the correct package name is here -->
+
+    <!-- Permissions: Add any permissions your app needs (optional) -->
+    <uses-permission android:name="android.permission.INTERNET" />  <!-- Example permission -->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Master"
+        tools:targetApi="31">
+
+        <!-- Main Activity (the launcher activity) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Second Activity (Q1) for the q1.xml layout -->
+        <activity
+            android:name=".Q1"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Q2"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Q3"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Q4"
+            android:exported="true">
+        </activity>
+
+
+    </application>
+
+</manifest>
