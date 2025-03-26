@@ -1,0 +1,165 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:padding="16dp">
+
+        <!-- Emergency Contact 1 -->
+        <TextView
+            android:id="@+id/emergency_general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="General Emergency"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 2 -->
+        <TextView
+            android:id="@+id/emergency_medical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Non-Emergency Medical Assistance"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 3 -->
+        <TextView
+            android:id="@+id/emergency_phare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PHARE Service (Brussels-Capital Region)"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 4 -->
+        <TextView
+            android:id="@+id/emergency_aviq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AVIQ (Wallonia)"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 5 -->
+        <TextView
+            android:id="@+id/emergency_vaph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VAPH (Flanders)"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 6 -->
+        <TextView
+            android:id="@+id/emergency_vigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V!GO (Wheelchair Repair)"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 7 -->
+        <TextView
+            android:id="@+id/emergency_meditechnics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MediTechnics (Wheelchair Repair)"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 8 -->
+        <TextView
+            android:id="@+id/emergency_grip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GRIP vzw"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 9 -->
+        <TextView
+            android:id="@+id/emergency_edf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="European Disability Forum"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+        <!-- Emergency Contact 10 -->
+        <TextView
+            android:id="@+id/emergency_anlh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANLH"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/jost_bold"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:singleLine="false"
+            android:ellipsize="none" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<resources>
+    <!-- Base application theme that uses AppCompat -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    </style>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_button_text">Beginnen</string>
+    <string name="description_app">Laat ons weten wie u bent.</string>
+    <string name="yes_this_will_be_my_first_time">Ja, dit is de eerste keer</string>
+    <string name="no_but_i_am_still_getting_used_to_it">Nee, maar ik raak er nog aan gewend</string>
+    <string name="is_this_your_first_time_using_a_wheelchair">Is dit de eerste keer dat u een rolstoel gebruikt?</string>
+    <string name="yes_i_need_a_lot_of_assistance">Ja, ik heb veel hulp nodig.</string>
+    <string name="yes_a_little_bit_of_help_is_needed">Ja, er is een beetje hulp nodig</string>
+    <string name="no_i_don_t_need_any_assistance">Nee, ik heb geen hulp nodig</string>
+    <string name="are_you_comfortable_with_the_accessibility_of_public_spaces">Voelt u zich op uw gemak met de toegankelijkheid van openbare ruimtes?</string>
+    <string name="very_comfortable_no_issues">Zeer comfortabel, geen problemen</string>
+    <string name="somewhat_comfortable_but_could_be_better">Redelijk comfortabel, maar kan beter</string>
+    <string name="not_comfortable_many_barriers">Niet comfortabel, veel barrières</string>
+    <string name="how_independent_do_you_feel_in_performing_daily_activities">Hoe zelfstandig voelt u zich bij het uitvoeren van dagelijkse activiteiten?</string>
+    <string name="completely_independent">Volledig onafhankelijk.</string>
+    <string name="i_need_some_help_occasionally">Ik heb af en toe hulp nodig.</string>
+    <string name="i_need_help_with_most_activities">Ik heb hulp nodig bij de meeste activiteiten.</string>
+    <string name="welcome_to_wheely_your_app_that_will_accompany_you_in_your_daily_life">Welkom bij Wheely! Uw app die u zal begeleiden in uw dagelijks leven</string>
+    <string name="success">Succes</string>
+    <string name="history">Geschiedenis</string>
+    <string name="language">Taal</string>
+    <string name="home">Home</string>
+    <string name="no_i_have_used_one_for_a_long_time">I have used it for a long time</string>
+</resources>

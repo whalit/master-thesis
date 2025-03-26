@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/creme"
+    tools:context=".Language">
+
+    <!-- French Language Selection -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <!-- French Flag -->
+        <ImageView
+            android:id="@+id/flagFrench"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/fr"
+            android:contentDescription="French Flag" />
+
+        <!-- French Text -->
+        <TextView
+            android:id="@+id/languageFrench"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Français"
+            android:textSize="18sp"
+            android:fontFamily="@font/jost_bold"
+            android:gravity="center"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- English Language Selection -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+
+        <!-- English Flag -->
+        <ImageView
+            android:id="@+id/flagEnglish"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/eng"
+            android:contentDescription="English Flag" />
+
+        <!-- English Text -->
+        <TextView
+            android:id="@+id/languageEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textSize="18sp"
+            android:fontFamily="@font/jost_bold"
+            android:gravity="center"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Nederlands Language Selection -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Nederlands Flag -->
+        <ImageView
+            android:id="@+id/flagNederlands"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ned"
+            android:contentDescription="Nederlands Flag" />
+
+        <!-- Nederlands Text -->
+        <TextView
+            android:id="@+id/languageNederlands"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dutch"
+            android:textSize="18sp"
+            android:fontFamily="@font/jost_bold"
+            android:gravity="center"
+            android:paddingTop="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

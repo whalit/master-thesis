@@ -298,7 +298,7 @@ def calculateJM(data, sampling_rate=20, save_path=None):
     processed_data['pitch'] = np.arctan2(
         processed_data['linear_acceleration[1]'],
         np.sqrt(processed_data['linear_acceleration[0]']**2 +
-               processed_data['linear_acceleration[2]']**2)
+            processed_data['linear_acceleration[2]']**2)
     )
     
     # 4. Roll angle

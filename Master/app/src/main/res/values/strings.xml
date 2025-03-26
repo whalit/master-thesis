@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Master</string>
+    <string name="start_button_text">Get Started</string>
+    <string name="description_app">Let us know who you are.</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="yes_this_will_be_my_first_time">Yes, this will be my first time</string>
+    <string name="no_but_i_am_still_getting_used_to_it">No but I am still getting used to it</string>
+    <string name="is_this_your_first_time_using_a_wheelchair">Is this your first time using a wheelchair?</string>
+    <string name="yes_i_need_a_lot_of_assistance">Yes, I need a lot of assistance.</string>
+    <string name="yes_a_little_bit_of_help_is_needed">Yes, a little bit of help is needed</string>
+    <string name="no_i_don_t_need_any_assistance">No, I don\'t need any assistance</string>
+    <string name="are_you_comfortable_with_the_accessibility_of_public_spaces">Are you comfortable with the accessibility of public spaces?</string>
+    <string name="very_comfortable_no_issues">Very comfortable, no issues</string>
+    <string name="somewhat_comfortable_but_could_be_better">Somewhat comfortable, but could be better</string>
+    <string name="not_comfortable_many_barriers">Not comfortable, many barriers</string>
+    <string name="how_independent_do_you_feel_in_performing_daily_activities">How independent do you feel in performing daily activities?</string>
+    <string name="completely_independent">Completely independent.</string>
+    <string name="i_need_some_help_occasionally">I need some help occasionally.</string>
+    <string name="i_need_help_with_most_activities">I need help with most activities.</string>
+    <string name="welcome_to_wheely_your_app_that_will_accompany_you_in_your_daily_life">Welcome to Wheely! Your app that will accompany you in your daily life</string>
+    <string name="success">Success</string>
+    <string name="history">History</string>
+    <string name="language">Language</string>
+    <string name="home">Home</string>
+    <string name="no_i_have_used_one_for_a_long_time">I have used it for a long time</string>
+
+
+</resources>

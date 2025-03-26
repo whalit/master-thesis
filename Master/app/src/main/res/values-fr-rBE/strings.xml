@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_button_text">Commencer</string>
+    <string name="description_app">Faites-nous savoir qui vous êtes</string>
+    <string name="yes_this_will_be_my_first_time">Oui, c\'est la première fois</string>
+    <string name="no_but_i_am_still_getting_used_to_it">Non mais je m\'y habitue encore</string>
+    <string name="is_this_your_first_time_using_a_wheelchair">Est-ce la première fois que vous utilisez un fauteuil roulant ?</string>
+    <string name="yes_i_need_a_lot_of_assistance">Oui, j\'ai besoin de beaucoup d\'aide.</string>
+    <string name="yes_a_little_bit_of_help_is_needed">Oui, un peu d\'aide est nécessaire</string>
+    <string name="no_i_don_t_need_any_assistance">Non, je n\'ai besoin d\'aucune aide</string>
+    <string name="are_you_comfortable_with_the_accessibility_of_public_spaces">Êtes-vous à l\'aise dans les espaces publics ?</string>
+    <string name="very_comfortable_no_issues">Très à l\'aise, aucun problème</string>
+    <string name="somewhat_comfortable_but_could_be_better">Plutôt à l\'aise, mais ça pourrait être mieux</string>
+    <string name="not_comfortable_many_barriers">Pas à l\'aise, de nombreuses barrières</string>
+    <string name="how_independent_do_you_feel_in_performing_daily_activities">À quel point vous sentez-vous indépendant pour réaliser les activités quotidiennes ?</string>
+    <string name="completely_independent">Complètement indépendant</string>
+    <string name="i_need_some_help_occasionally">J\'ai parfois besoin d\'aide.</string>
+    <string name="i_need_help_with_most_activities">J\'ai besoin d\'aide pour la plupart des activités.</string>
+    <string name="welcome_to_wheely_your_app_that_will_accompany_you_in_your_daily_life">Bienvenue sur Wheely ! Votre application qui vous accompagnera dans votre vie quotidienn</string>
+    <string name="success">Succès</string>
+    <string name="history">Historique</string>
+    <string name="language">Langue</string>
+    <string name="home">Accueil</string>
+    <string name="no_i_have_used_one_for_a_long_time">I have used it for a long time</string>
+</resources>

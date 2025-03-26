@@ -1,0 +1,173 @@
+[
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "compute_acceleration_magnitude",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def compute_acceleration_magnitude(ax, ay, az):\n    \"\"\"\n    Compute the magnitude of the acceleration vector.\n    This is calculated using the formula:\n    |a| = sqrt(ax^2 + ay^2 + az^2)\n    Parameters:\n    ax (float): Acceleration in the x-direction.\n    ay (float): Acceleration in the y-direction.\n    az (float): Acceleration in the z-direction.\n    Returns:",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "compute_angular_magnitude",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def compute_angular_magnitude(wx, wy, wz):\n    \"\"\"\n    Compute the magnitude of the angular velocity vector.\n    This is calculated using the formula:\n    |w| = sqrt(wx^2 + wy^2 + wz^2)\n    Parameters:\n    wx (float): Angular velocity around the x-axis.\n    wy (float): Angular velocity around the y-axis.\n    wz (float): Angular velocity around the z-axis.\n    Returns:",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "compute_pitch",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def compute_pitch(ax, ay, az):\n    \"\"\"\n    Compute the pitch angle (rotation around the x-axis).\n    The pitch is calculated using:\n    theta_pitch = arctan2(ay, sqrt(ax^2 + az^2))\n    Parameters:\n    ax (float): Acceleration in the x-direction.\n    ay (float): Acceleration in the y-direction.\n    az (float): Acceleration in the z-direction.\n    Returns:",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "compute_roll",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def compute_roll(ax, az):\n    \"\"\"\n    Compute the roll angle (rotation around the y-axis).\n    The roll is calculated using:\n    theta_roll = arctan2(-ax, az)\n    Parameters:\n    ax (float): Acceleration in the x-direction.\n    az (float): Acceleration in the z-direction.\n    Returns:\n    float: Roll angle in radians.",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "compute_jerk",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def compute_jerk(a_prev, a_curr, delta_t):\n    \"\"\"\n    Compute the jerk, which is the rate of change of acceleration.\n    The jerk is calculated using the formula:\n    jerk = (a_curr - a_prev) / delta_t\n    Parameters:\n    a_prev (float): Acceleration at the previous time step.\n    a_curr (float): Acceleration at the current time step.\n    delta_t (float): Time interval between the two accelerations.\n    Returns:",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "plot_sensor_data",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def plot_sensor_data(data, save_path=None):\n    \"\"\"\n    Plot sensor data from IMU readings\n    Args:\n        data (pd.DataFrame): DataFrame containing sensor data\n        save_path (str, optional): Path to save the plot. If None, display plot\n    Returns:\n        fig: matplotlib figure object\n    \"\"\"\n    # Create time array",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "crop_dataset",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def crop_dataset(file_path, start_index, fall_value=0, save_path=None):\n    \"\"\"\n    Crop dataset from a specific starting index and add fall feature\n    Args:\n        file_path (str): Path to the original CSV file\n        start_index (int): Index to start from\n        fall_value (int): Value for the fall feature (default 0)\n        save_path (str, optional): Path to save the cropped CSV. If None, won't save\n    Returns:\n        pd.DataFrame: Cropped dataset with fall feature",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "combine_sessions",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def combine_sessions(file_paths):\n    \"\"\"\n    Combine multiple CSV sessions into one dataset with session IDs\n    Args:\n        file_paths (list): List of paths to CSV files\n    Returns:\n        pd.DataFrame: Combined dataset with session IDs\n    \"\"\"\n    combined_data = []\n    for session_id, file_path in enumerate(file_paths):",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "calculateJM",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def calculateJM(data, sampling_rate=20, save_path=None):\n    \"\"\"\n    Process sensor data to calculate additional features\n    Args:\n        data (pd.DataFrame): DataFrame containing sensor data\n        sampling_rate (float): Sampling rate of the sensor in Hz\n        save_path (str, optional): Path to save processed data\n    Returns:\n        pd.DataFrame: Processed data with additional features\n    \"\"\"",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "process_session",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def process_session(file_path, save_processed=True):\n    \"\"\"\n    Process a single session of sensor data\n    Args:\n        file_path (str): Path to CSV file\n        save_processed (bool): Whether to save processed data\n    \"\"\"\n    # Read data\n    data = pd.read_csv(file_path)\n    # Process data",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "crop_fall",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def crop_fall(file_path, start_index, fall_start, fall_end, save_path=None):\n    \"\"\"\n    Crop dataset and add fall labels based on a range\n    Args:\n        file_path (str): Path to the original CSV file\n        start_index (int): Index to start from\n        fall_start (int): Start index of fall event (relative to cropped data)\n        fall_end (int): End index of fall event (relative to cropped data)\n        save_path (str, optional): Path to save the cropped CSV. If None, won't save\n    Returns:",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "compute_all_features",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def compute_all_features(data, sampling_rate=20):\n    \"\"\"\n    Compute all IMU features from raw sensor data\n    Parameters:\n    data (pd.DataFrame): DataFrame containing sensor data with columns:\n        - linear_acceleration[0,1,2]\n        - angular_velocity[0,1,2]\n    sampling_rate (float): Sampling rate in Hz for jerk calculation\n    Returns:\n    pd.DataFrame: DataFrame with all computed features",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "organize_columns",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def organize_columns(data):\n    \"\"\"\n    Organize DataFrame columns by dropping environmental data and reordering columns\n    Parameters:\n    data (pd.DataFrame): Input DataFrame with all columns\n    Returns:\n    pd.DataFrame: DataFrame with organized columns\n    \"\"\"\n    # Copy the input DataFrame\n    organized_data = data.copy()",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "plot_acceleration_magnitude",
+        "kind": 2,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "def plot_acceleration_magnitude(data, save_path=None):\n    \"\"\"\n    Plot the acceleration magnitude from IMU readings\n    Args:\n        data (pd.DataFrame): DataFrame containing sensor data\n        save_path (str, optional): Path to save the plot. If None, display plot\n    Returns:\n        fig: matplotlib figure object\n    \"\"\"\n    # Create time array",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "training_files",
+        "kind": 5,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "training_files = [\n    'dataset/normal/normal1.csv',\n    'dataset/normal/normal2.csv',\n    'dataset/normal/normal3.csv',\n    'dataset/normal/normal4.csv',\n    'dataset/normal/normal5.csv',\n    'dataset/normal/normal6.csv',\n    'dataset/normal/normal7.csv',\n    'dataset/normal/normal8.csv'\n]",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    },
+    {
+        "label": "combined_dataset",
+        "kind": 5,
+        "importPath": "Notebooks.general",
+        "description": "Notebooks.general",
+        "peekOfCode": "combined_dataset = combine_sessions(training_files)\n# Save combined dataset\ncombined_dataset.to_csv('dataset/combined_training_data.csv', index=False)\n    \"\"\"\ndef calculateJM(data, sampling_rate=20, save_path=None):\n    \"\"\"\n    Process sensor data to calculate additional features\n    Args:\n        data (pd.DataFrame): DataFrame containing sensor data\n        sampling_rate (float): Sampling rate of the sensor in Hz",
+        "detail": "Notebooks.general",
+        "documentation": {}
+    }
+]

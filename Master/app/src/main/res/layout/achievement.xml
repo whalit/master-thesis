@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <!-- Achievement Icon -->
+    <ImageView
+        android:id="@+id/achievementIcon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="Achievement Icon"
+        android:src="@drawable/lock"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Achievement Title -->
+    <TextView
+        android:id="@+id/achievementTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="8dp"
+        android:text="Achievement Title"
+        android:textSize="18sp"
+        android:textColor="@color/navy"
+        android:fontFamily="@font/jost"
+        android:maxLines="2"
+        android:ellipsize="end"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/achievementIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center_vertical" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

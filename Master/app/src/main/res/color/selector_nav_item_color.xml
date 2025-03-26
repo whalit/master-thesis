@@ -1,0 +1,7 @@
+<!-- res/color/selector_nav_item_color.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected state -->
+    <item android:color="@color/red" android:state_checked="true" />
+    <!-- Default state -->
+    <item android:color="@color/navy" />
+</selector>
